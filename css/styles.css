@@ -13,6 +13,17 @@
   --dairy: #fcfcfc;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 img {
   display: block;
 }
@@ -50,6 +61,15 @@ ol {
 .ul-address-list {
   display: flex;
   gap: 40px;
+}
+
+.ul-section-qualities-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-qualities-list {
+  width: calc((100% - 72px) / 4);
 }
 
 body {
@@ -153,12 +173,17 @@ body {
   background-color: var(--ocean);
 }
 
+.section-qualities {
+  padding: 120px 0;
+}
+
 .section-qualities-list-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
 .section-qualities-list-paragraph {
