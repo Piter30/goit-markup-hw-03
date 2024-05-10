@@ -88,7 +88,7 @@ ol {
   gap: 24px;
 }
 
-.container-section-our-team-list {
+div .container-section-our-team-list {
   padding: 32px 16px;
 }
 
@@ -297,12 +297,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.section-our-portfolio-list-paragraph {
+p .section-our-portfolio-list-paragraph {
+  margin-bottom: 8px;
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .footer {
