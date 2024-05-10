@@ -295,10 +295,10 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 p .section-our-portfolio-list-paragraph {
-  margin-bottom: 8px;
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
