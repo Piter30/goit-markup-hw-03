@@ -13,6 +13,40 @@
   --dairy: #fcfcfc;
 }
 
+img {
+  display: block;
+}
+
+.header {
+  border-bottom: 1px solid var(--cornflower);
+  background: var(--white);
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-header {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.ul-main-menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.ul-address-list {
+  display: flex;
+  gap: 40px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
@@ -28,6 +62,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 .logo-text {
   color: var(--navy-blue);
@@ -37,6 +72,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding: 24px 0;
 }
 
 .main-menu-list:hover {
@@ -59,6 +95,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  padding: 24px 0;
 }
 
 .address-list:hover {
